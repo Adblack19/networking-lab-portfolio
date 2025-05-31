@@ -18,6 +18,6 @@ This repository contains my hands-on labs for Cisco CCNA Routing & Switching, al
 - CLI Configuration (iOS Syntax)
 
 ## Author
-** OYEDARE ADEOLA** — Network and Cybersecurity Engineer  
+ OYEDARE ADEOLA — Network and Cybersecurity Engineer  
 📧 codewithoyedare@gmail.com  
 🔗 [LinkedIn]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/adeola-oyedare-6a1561222?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B%2ByJcOvOQQBGiO%2FIZnB5Uww%3D%3D))
