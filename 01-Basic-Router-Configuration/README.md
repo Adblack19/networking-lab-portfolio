@@ -18,10 +18,10 @@ To configure a router with the following features:
 
 - **Hostname**: `CCNA2`
 - **Clock Set**: `07:12, 1 June 2025`
-- **Enable Secret Password**: Encrypted (`Friday123`)
+- **Enable Secret Password**: Encrypted (`Adeola123`)
 - **Username**: `ccna` with privilege level 15
 - **VTY & AUX Access**: Password-protected with local login
-- **Domain Name**: `jimrealtek.com.ng`
+- **Domain Name**: `Adeola.com.ng`
 - **Name Server**: `192.168.1.100`
 - **Default Gateway**: `192.168.1.2`
 - **Interface g0/0/0**: `172.16.1.2 /24`
