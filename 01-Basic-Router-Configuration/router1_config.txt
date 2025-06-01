@@ -1,0 +1,49 @@
+enable
+clock set 07:23:12 1 June 2025
+configure terminal
+hostname CCNA1
+
+security password min-length 9
+service password-encryption
+enable secret Adeola123
+username ccna privilege 15 secret Friday123
+login block-for 60 attempts 2 within 30
+security authentication failure rate 3 log
+login on-success log
+login on-failure log
+
+ip http server
+ip http authentication local
+ip default-gateway 10.0.0.1
+ip domain-name Adeola.com.ng
+ip name-server 192.168.1.100
+no ip domain-lookup
+
+line vty 0 4
+ password Adeola123
+ login
+ logging synchronous
+ exec-timeout 60 00
+ login local
+
+line aux 0
+ password Adeola123
+ login
+ logging synchronous
+ exec-timeout 60 00
+ login local
+
+banner motd # Unauthorized User is Prohibited #
+banner login # User Only #
+
+interface g0/0/0
+ ip address 10.0.0.2 255.255.255.0
+ description Assigning IP to g0/0/0
+ no shutdown
+
+interface g0/0/1
+ ip address 172.16.1.1 255.255.255.0
+ description Assigning IP to g0/0/1
+ no shutdown
+
+do copy run start
