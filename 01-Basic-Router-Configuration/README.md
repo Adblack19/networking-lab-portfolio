@@ -41,8 +41,8 @@ The full configuration is saved in [`router2_config.txt`](./router2_config.txt) 
 
 ## Preview
 
-![Lab Setup Screenshot 1](../images/lab1_topology.png)  
-![Lab Setup Screenshot 2](../images/lab1_cli_config.png)
+![Lab Setup Screenshot 1](topology.png)  
+
 
 > Note: Replace the image paths if necessary depending on your folder structure.
 
