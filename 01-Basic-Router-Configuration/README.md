@@ -23,7 +23,7 @@ To configure a router with the following features:
 - **VTY & AUX Access**: Password-protected with local login
 - **Domain Name**: `Adeola.com.ng`
 - **Name Server**: `192.168.1.100`
-- **Default Gateway**: `192.168.1.2`
+- **Default Gateway**: `192.168.1.1`
 - **Interface g0/0/0**: `172.16.1.2 /24`
 - **Interface g0/0/1**: `192.168.1.2 /24`
 - **HTTP Server**: Enabled with local authentication
