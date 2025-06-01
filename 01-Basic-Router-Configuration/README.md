@@ -49,7 +49,7 @@ The full configuration is saved in [`router2_config.txt`](./router2_config.txt) 
 ## Author
 
 Adeola – Network & Cybersecurity Engineer  
-GitHub: [your-username](https://github.com/your-username)
+GitHub: [your-username](https://github.com/Adblack19)
 
 ---
 
