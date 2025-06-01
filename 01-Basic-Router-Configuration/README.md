@@ -32,7 +32,7 @@ To configure a router with the following features:
 
 ## Configuration Script
 
-The full configuration is saved in [`router_config.txt`](./router1_config.txt) in this folder.
+The full configuration is saved in [`router1_config.txt`](./router1_config.txt) in this folder.
 
 ## Tools Used
 
