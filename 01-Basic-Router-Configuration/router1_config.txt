@@ -6,7 +6,7 @@ hostname CCNA1
 security password min-length 9
 service password-encryption
 enable secret Adeola123
-username ccna privilege 15 secret Friday123
+username ccna privilege 15 secret Adeola123
 login block-for 60 attempts 2 within 30
 security authentication failure rate 3 log
 login on-success log
@@ -14,7 +14,7 @@ login on-failure log
 
 ip http server
 ip http authentication local
-ip default-gateway 10.0.0.1
+ip default-gateway 10.0.0.2
 ip domain-name Adeola.com.ng
 ip name-server 192.168.1.100
 no ip domain-lookup
