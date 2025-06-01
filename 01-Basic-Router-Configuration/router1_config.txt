@@ -3,7 +3,7 @@ clock set 07:23:12 1 June 2025
 configure terminal
 hostname CCNA1
 
-security password min-length 9
+security password min-length 8
 service password-encryption
 enable secret Adeola123
 username ccna privilege 15 secret Adeola123
